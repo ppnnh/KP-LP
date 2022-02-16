@@ -1,0 +1,39 @@
+str function ah(str a){
+	declare str function strcat(str a, str b);
+	a = strcat(a," with the BVD-2021 programming language");
+	output a;
+	;
+	return a;
+};
+
+byte function addone(byte a, byte b){
+	if(a < 0b){
+	output "a < 0 ";
+	}
+	else{
+	output "a >= 0 ";
+	}
+	a = a + b + 1b;
+	return a;
+};
+
+major{
+declare byte y;
+declare byte x;
+declare byte function pow(byte a, str b);
+declare byte function abs(byte a);
+y = abs(10000110b);
+x = pow(y, 10b)-1010b;
+output y;
+output x;
+x = addone(x, 1b);
+while(y < x){
+y = y + 1b;
+}
+output y;
+output x;
+declare str a;
+a = ah("You are working ");
+output a;
+return 0b;
+};

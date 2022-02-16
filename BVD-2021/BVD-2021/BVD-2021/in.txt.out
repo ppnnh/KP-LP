@@ -1,0 +1,71 @@
+Таблица лексем:
+
+0	tfi[0F](ti[1P]){
+1	dtfi[2DF](ti[3DFP],ti[4DFP]);
+2	i[1P]=i[2DF](i[1P],l(" with the BVD-2021 programming language"));
+3	pi[1P];
+4	;
+5	ri[1P];
+6	};
+7	
+8	tfi[6F](ti[7P],ti[8P]){
+9	1(i[7P]<l(0b)){
+10	pl("a < 0 ");
+11	}
+12	2{
+13	pl("a >= 0 ");
+14	}
+15	i[7P]=i[7P]+i[8P]+l(1b);
+16	ri[7P];
+17	};
+18	
+19	m[13F]{
+20	dti[14V];
+21	dti[15V];
+22	dtfi[16DF](ti[17DFP],ti[18DFP]);
+23	dtfi[19DF](ti[20DFP]);
+24	i[14V]=i[19DF](l(10000110b));
+25	i[15V]=i[16DF](i[14V],l(10b))-l(1010b);
+26	pi[14V];
+27	pi[15V];
+28	i[15V]=i[6F](i[15V],l(1b));
+29	w(i[14V]<i[15V]){
+30	i[14V]=i[14V]+l(1b);
+31	}
+32	pi[14V];
+33	pi[15V];
+34	dti[26V];
+35	i[26V]=i[0F](l("You are working "));
+36	pi[26V];
+37	rl(0b);
+38	};
+Таблица идентификаторов:
+0: -1/ah(sF) : 0
+1: 0/a(sP) : 0
+2: 0/strcat(sDF) : 1
+3: 0/a(sDFP) : 1
+4: 0/b(sDFP) : 1
+5: 0/!literal(sL = " with the BVD-2021 programming language") : 2
+6: -1/addone(bF) : 8
+7: 6/a(bP) : 8
+8: 6/b(bP) : 8
+9: 6/!literal(bL = 0b) : 9
+10: 6/!literal(sL = "a < 0 ") : 10
+11: 6/!literal(sL = "a >= 0 ") : 13
+12: 6/!literal(bL = 1b) : 15
+13: -1/!major(nF) : 19
+14: 13/y(bV) : 20
+15: 13/x(bV) : 21
+16: 13/pow(bDF) : 22
+17: 13/a(bDFP) : 22
+18: 13/b(sDFP) : 22
+19: 13/abs(bDF) : 23
+20: 13/a(bDFP) : 23
+21: 13/!literal(bL = 10000110b) : 24
+22: 13/!literal(bL = 10b) : 25
+23: 13/!literal(bL = 1010b) : 25
+24: 13/!literal(bL = 1b) : 28
+25: 13/!literal(bL = 1b) : 30
+26: 13/a(sV) : 34
+27: 13/!literal(sL = "You are working ") : 35
+28: 13/!literal(bL = 0b) : 37
